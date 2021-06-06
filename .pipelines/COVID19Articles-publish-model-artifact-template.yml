@@ -13,6 +13,8 @@ steps:
     scriptLocation: inlineScript
     workingDirectory: $(Build.SourcesDirectory)
     inlineScript: |
+      pip install --upgrade azureml-sdk
+    
       set -e # fail on error
 
       # Get the model using the build ID tag

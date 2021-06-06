@@ -22,7 +22,7 @@ variables:
 - group: devopsforai-aml-vg
 
 pool:
-  vmImage: ubuntu-latest
+  name: "Solliance MLOps Linux"
 
 stages:
 - stage: 'Model_CI'
